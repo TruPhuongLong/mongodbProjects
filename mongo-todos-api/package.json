@@ -1,8 +1,11 @@
 {
   "name": "mongo-todos-api",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "api for web and mobile get data json",
+  "main": "server.js",
+  "engines": {
+    "node": "10.3.0"
+  },
   "scripts": {
     "start": "node src/server/server.js",
     "test": "mocha src/server/*.test.js",
